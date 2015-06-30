@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Codescape.Exceptionless</id>
+    <version>$version$</version>
+    <title>Codescape.Exceptionless</title>
+    <owners>Shane Kingsley</owners>
+    <authors>Shane Kingsley</authors>
+    <description>Simple logging extention methods for exceptionless</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <dependencies>
+      <dependency id="Exceptionless" version="3.1.1349"/>
+      <dependency id="Exceptionless.Portable" version="3.1.1349"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Codescape.Exceptionless.dll" target="lib\net45" />
+  </files>
+</package>
